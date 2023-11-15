@@ -52,3 +52,20 @@ Localhost verification
 
 Function verification
 ![image](serverless_function.png)
+
+
+Update the yml service name
+
+Run the serverless deploy command
+```
+serverless deploy
+```
+![image](serverless_deploy.png)
+
+Verify the Lambda function
+
+Verify the lambda servce
+![image](aws_lambda.png)
+
+Verify the endpoint
+![image](lambda_endpoint.png)
