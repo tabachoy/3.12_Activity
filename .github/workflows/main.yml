@@ -13,11 +13,11 @@ jobs:
             - run: echo " 🐧 The job is now running on a ${{ github.os }} server hosted by Github"
             - run: echo " 🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
 
-        install-dependencies:
-            runs-on: ubuntu-latest
-            needs: pre-deploy
-            steps:
-                - name: Check out repository code
-                uses: actions/checkout@v3
-                - name: Run Installation of Dependencies Commands
-                run: npm install
+    install-dependencies:
+        runs-on: ubuntu-latest
+        needs: pre-deploy
+        steps:
+            - name: Check out repository code
+            uses: actions/checkout@v3
+            - name: Run Installation of Dependencies Commands
+            run: npm install
