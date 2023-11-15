@@ -37,3 +37,4 @@ npm install serverless-offline --save-dev
 ```
 
 Add filee .gitignore to ignore node_modules
+
