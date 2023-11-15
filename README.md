@@ -1,4 +1,4 @@
-# Congenial Palm Tree
+# 3.12 Lesson
 
 ### Activities for today
 
@@ -36,5 +36,19 @@ npm install serverless
 npm install serverless-offline --save-dev
 ```
 
-Add filee .gitignore to ignore node_modules
+Add file .gitignore to ignore node_modules
 
+Run the offline serverless
+
+```
+serverless offline start
+```
+
+Command line execution
+![image](serverless_offline_cmd.png)
+
+Localhost verification
+![image](serverless_localhost.png)
+
+Function verification
+![image](serverless_function.png)
