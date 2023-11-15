@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/tabachoy/3.12_Activity/issues"
   },
-  "homepage": "https://github.com/tabachoy/3.12_Activity#readme"
+  "homepage": "https://github.com/tabachoy/3.12_Activity#readme",
+  "dependencies": {
+    "serverless": "^3.36.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^13.2.1"
+  }
 }
