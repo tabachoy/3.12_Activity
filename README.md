@@ -69,3 +69,6 @@ Verify the lambda servce
 
 Verify the endpoint
 ![image](lambda_endpoint.png)
+
+Do github workflows
+![image](github_cicd.png)
