@@ -2,10 +2,20 @@
 
 Activities for today
 
-Git clone
+```
+git clone
+```
+```
+git add
+```
+```
+git commit
+```
+```
+git push
+```
 
-Git add
 
-Git commit
-
-Git push
+```
+npm init
+```
